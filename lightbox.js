@@ -18,11 +18,11 @@ images.forEach(image => {
        share.classList.add('active')
        const img = document.createElement('img')
        img.src = image.src
-        // scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        // scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-        //     window.onscroll = function() {
-        //         window.scrollTo(scrollLeft, scrollTop);
-        //     };
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            window.onscroll = function() {
+                window.scrollTo(scrollLeft, scrollTop);
+            };
        while(lightbox.firstChild){
         lightbox.removeChild(lightbox.firstChild)
        }
@@ -34,7 +34,9 @@ close_lightbox.addEventListener('click', e => {
     lightbox.classList.remove('active')
     close_lightbox.classList.remove('active')
     share.classList.remove('active')
-        // window.onscroll = function(){};
+        window.onscroll = function(){
+            reszie();
+        };
 })
 
 lightbox.addEventListener('click', e => {
@@ -44,5 +46,7 @@ lightbox.addEventListener('click', e => {
     lightbox.classList.remove('active')
     close_lightbox.classList.remove('active')
     share.classList.remove('active')
-        // window.onscroll = function(){};
+        window.onscroll = function(){
+            reszie();
+        };
 })

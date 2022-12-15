@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -10,6 +9,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: 'Inter', sans-serif;
 }
 
 img{
@@ -54,7 +54,7 @@ img:hover {
   width: 73%;
   margin-top: -12vw;
   line-height: 9vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   margin: auto;
 }
 
@@ -84,7 +84,7 @@ footer{
   font-size: 3vh;
 }
 
-#instagram, #about, #about_menu, #instagram_menu{
+#instagram, #about, #about_menu, #instagram_menu, #home, #home_menu{
   text-decoration: none;
   color: #444444;
 }
@@ -92,19 +92,20 @@ footer{
 #about_menu, #instagram_menu{
   text-decoration: none;
   color: #444444;
-  font-size: 80px;
+  font-size: 3em;
+  margin-bottom: 5px;
 }
 
-#instagram:hover, #about:hover, #about_menu:hover, #instagram_menu:hover{
+#instagram:hover, #about:hover, #about_menu:hover, #instagram_menu:hover, #home:hover, #home_menu:hover{
   color: #b3b3b3;
 }
 
-.about{
+.about, .home{
   float: left;
   margin-right: 10px;
 }
 
-#name, #about, #instagram, #about_menu, #instagram_menu{
+#name, #about, #instagram, #about_menu, #instagram_menu, #home_menu, #home{
   transition: font-size 0.25s linear;
   -o-transition: font-size 0.25s linear;
   -ms-transition: font-size 0.25s linear;
@@ -123,7 +124,7 @@ footer{
   border-radius: 5px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar{
   width: 35px;
   height: 5px;
   margin: 6px;
@@ -132,20 +133,20 @@ footer{
   margin-left: 22.5px;
 }
 
-.bar1{
+#bar1{
   margin-top: 26.5px;
 }
 
-.change .bar1 {
+.change #bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {
+.change #bar2 {
   opacity: 0;
   transition: opacity 0;
 }
 
-.change .bar3 {
+.change #bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
 
@@ -200,7 +201,7 @@ hr{
   font-size: 3vw;
 }
 
-#instagram, #about{
+#instagram, #about, #home{
   font-size: 1.3vw;
 }
 
@@ -220,7 +221,7 @@ hr{
 
 .copyright{
   text-align: center;
-  font-size: 4vw;
+  font-size: 3.8vw;
   margin-top: 10vw;
   height: 10vw;
 
@@ -232,12 +233,13 @@ hr{
 
 footer{
   text-align: center;
-  font-size: 4vw;
+  font-size: 3.8vw;
   height: 10vw;
   line-height: 10vw;
+  margin-top: 10vw;
 }
 
-#about, #instagram{
+#about, #instagram, #home{
   display: none;
 }
 
@@ -246,7 +248,7 @@ footer{
   transition: all 1s ease;
 }
 
-#instagram, #about{
+#instagram, #about, #home{
   font-size: 0.9vw;
 }
 

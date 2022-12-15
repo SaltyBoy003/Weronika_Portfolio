@@ -8,17 +8,23 @@ function reszie(){
             if(scroll > 65){
                 document.getElementById("name").style.color = "white";
                 document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+                document.getElementById("dropdown-content").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
                 document.getElementById("menu").style.borderColor = "white";
-                document.getElementById("bar1").style.backgroundColor = "white";
-                document.getElementById("bar2").style.backgroundColor = "white";
-                document.getElementById("bar3").style.backgroundColor = "white";
+                document.getElementById("about_menu").style.color = "white";
+                document.getElementById("instagram_menu").style.color = "white";
+                document.querySelectorAll(".bar").forEach((e) =>{
+                    e.style.backgroundColor = "white";
+                })
             }else{
                 document.getElementById("name").style.color = "#383838";
                 document.getElementById("header").style.backgroundColor = "transparent";
+                document.getElementById("dropdown-content").style.backgroundColor = "#F8F8F8";
                 document.getElementById("menu").style.borderColor = "#333";
-                document.getElementById("bar1").style.backgroundColor = "#383838";
-                document.getElementById("bar2").style.backgroundColor = "#383838";
-                document.getElementById("bar3").style.backgroundColor = "#383838";
+                document.querySelectorAll(".bar").forEach((e) =>{
+                    e.style.backgroundColor = "#383838";
+                })
+                document.getElementById("about_menu").style.color = "#444444";
+                document.getElementById("instagram_menu").style.color = "#444444";
             }
 
             if(z === 1){

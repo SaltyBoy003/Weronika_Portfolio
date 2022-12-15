@@ -60,9 +60,9 @@
 
 @media only screen and (max-width: 1013px) {
 #close{
-      width: 90px;
-      height: 90px;
-      background: url(images_mobile/close.png) top right no-repeat;
+      width: 80px;
+      height: 80px;
+      background: url(images/close_mobile.png) top right no-repeat;
       -webkit-tap-highlight-color: transparent;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
@@ -70,6 +70,15 @@
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+    }
+
+    #close.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.2s ease;  
+        transform:translate(0);
+        opacity: 0.5;
     }
 
     #lightbox img{

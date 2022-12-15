@@ -60,9 +60,6 @@
 
 @media only screen and (max-width: 1013px) {
 #close{
-      width: 80px;
-      height: 80px;
-      background: url(images/close_mobile.png) top right no-repeat;
       -webkit-tap-highlight-color: transparent;
       -webkit-touch-callout: none;
       -webkit-user-select: none;

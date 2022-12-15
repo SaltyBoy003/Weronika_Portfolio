@@ -54,7 +54,7 @@ img:hover {
   width: 73%;
   margin-top: -12vw;
   line-height: 9vw;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin: auto;
 }
 
@@ -66,6 +66,7 @@ footer{
   text-align: right;
   line-height: 5vw;
   font-size: 1vw;
+  margin-top: auto;
 }
 
 #author{
@@ -89,7 +90,7 @@ footer{
   color: #444444;
 }
 
-#about_menu, #instagram_menu{
+#about_menu, #instagram_menu, #home_menu{
   text-decoration: none;
   color: #444444;
   font-size: 3em;
@@ -294,4 +295,9 @@ footer{
   width: 75vw;
   height: auto;
 }
+
+#about_menu, #instagram_menu, #home_menu{
+  transition: all 1s ease;
+}
+
 }

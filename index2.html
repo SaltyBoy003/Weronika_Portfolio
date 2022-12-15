@@ -3,19 +3,35 @@
 <head>
 	<title>Wera fashion</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
+  <script src="script.js"></script>
+  <script src="resize2.js"></script>
 </head>
 <body>
-  <div class="header">
-    <a href="index.html" id="name">weronika domagalska</a><br>
-    <div class="about">
-    <a href="index2.html" id="about">about</a>
+  <div class="container">
+  <div class="header" id="header">
+    <div class= "name">
+    <a href="index.html" id="name">weronika domagalska</a>
+  </div>
+    <div class="menu" id="menu" onclick="menu(this), drop_menu()">
+      <div class="bar1" id="bar1"></div>
+      <div class="bar2" id="bar2"></div>
+      <div class="bar3" id="bar3"></div>
+    </div>
+    <div class="home">
+    <a href="index.html" id="home">home</a>
   </div>
   <div class="instagram">
-    <a href="https://www.instagram.com/w_domagalska/?utm_source=ig_embed&ig_rid=fba7f9ff-ca78-4c51-b319-90608af35b2b" id="instagram">instagram</a>
+    <a href="https://www.instagram.com/w_domagalska/?utm_source=ig_embed&ig_rid=fba7f9ff-ca78-4c51-b319-90608af35b2b" target="_blank" id="instagram">instagram</a>
   </div>
+  </div>
+  <div class="dropdown-content" id="dropdown-content">
+    <a href="index.html" id="home_menu">home</a><br>
+    <hr>
+    <a href="https://www.instagram.com/w_domagalska/?utm_source=ig_embed&ig_rid=fba7f9ff-ca78-4c51-b319-90608af35b2b" target="_blank" id="instagram_menu">instagram</a>
+    </div>
   </div>
     <div class="info">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br><br>
         contact: <a href="mailto:weronika1595@gmail.com" id="author">weronika1595@gmail.com</a></p>
         
       </div>
@@ -23,7 +39,7 @@
         Copyright © 2022 weronika domagalska
       </div>
   <footer>
-    <a href="mailto:t.domagalski7@gmail.com" id="author">website designed by tomasz domagalski</a>
+    <a>website designed by: </a><a href="mailto:t.domagalski7@gmail.com" id="author">tomasz domagalski</a>
   </footer>
 </body>
 </html>

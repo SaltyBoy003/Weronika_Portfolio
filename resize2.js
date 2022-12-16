@@ -5,7 +5,7 @@ function reszie(){
     switch(true){
         case(width < 1024):
         document.getElementById("name").style.fontSize = "6.5vw";
-            if(scroll > 65){
+            if(scroll > 35){
                 document.getElementById("name").style.color = "white";
                 document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
                 document.getElementById("menu").style.borderColor = "white";

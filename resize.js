@@ -5,7 +5,7 @@ function reszie(){
     switch(true){
         case(width < 1024):
         document.getElementById("name").style.fontSize = "6.5vw";
-            if(scroll > 65){
+            if(scroll > 35){
                 document.getElementById("name").style.color = "white";
                 document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
                 document.getElementById("dropdown-content").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
@@ -48,7 +48,7 @@ function reszie(){
                 }
             }
 
-            if (scroll > 20) {
+            if (scroll > 40) {
                 for (let html_id in font_sizes) {
                     document.getElementById(html_id).style.fontSize = `${font_sizes[html_id][1]}vw`;
                 }

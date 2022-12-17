@@ -187,6 +187,18 @@ hr{
 
 }
 
+#info{
+  font-size: 1.2vw;
+  width: 50%;
+  margin-left: 20vw;
+}
+
+#copyright_about{
+  font-size: 1vw;
+  margin-top: 20px;
+  margin-left: 20vw;
+}
+
 @media only screen and (min-width: 1024px){
 
 .menu{
@@ -234,9 +246,23 @@ hr{
 footer{
   text-align: center;
   font-size: 3.8vw;
-  height: 20vw;
+  height: 10vw;
   line-height: 10vw;
   margin-top: 10vw;
+}
+
+#info{
+  font-size: 3.5vw;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#copyright_about{
+  font-size: 3vw;
+  width: 75%;
+  margin: auto;
+  text-align: left;
 }
 
 #about, #instagram, #home{

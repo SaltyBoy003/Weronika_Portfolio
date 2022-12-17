@@ -5,6 +5,7 @@ function reszie(){
     switch(true){
         case(width < 1024):
         document.getElementById("name").style.fontSize = "6.5vw";
+        document.getElementById("header").style.width = "100vw";
             if(scroll > 35){
                 document.getElementById("name").style.color = "white";
                 document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
@@ -37,21 +38,23 @@ function reszie(){
         document.getElementById("name").style.color = "#383838";
         document.getElementById("header").style.backgroundColor = "transparent";
         const font_sizes = {
-         "name": [3, 1.2],
-         "about": [1.3, 0.9],
-         "instagram": [1.3, 0.9]
+         "name": [3, 1.1],
+         "about": [1.3, 0.8],
+         "instagram": [1.3, 0.8]
         };
 
             if (scroll === 0) {
                 for (let html_id in font_sizes) {
                     document.getElementById(html_id).style.fontSize = `${font_sizes[html_id][0]}vw`;
                 }
+                document.getElementById("header").style.width = "100vw";
             }
 
-            if (scroll > 40) {
+            if (scroll > 50) {
                 for (let html_id in font_sizes) {
                     document.getElementById(html_id).style.fontSize = `${font_sizes[html_id][1]}vw`;
                 }
+                    document.getElementById("header").style.width = "400px";
             }
         break;
     }

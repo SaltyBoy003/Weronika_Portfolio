@@ -35,6 +35,7 @@ img:hover {
   position: sticky;
   top: 0;
   z-index: 1;
+  transition: all 1s ease;
 }
 
 .gallery{
@@ -233,7 +234,7 @@ hr{
 footer{
   text-align: center;
   font-size: 3.8vw;
-  height: 10vw;
+  height: 20vw;
   line-height: 10vw;
   margin-top: 10vw;
 }
@@ -298,5 +299,4 @@ footer{
 #about_menu, #instagram_menu, #home_menu{
   transition: all 1s ease;
 }
-
 }

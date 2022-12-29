@@ -60,7 +60,7 @@ img:hover, video:hover {
   width: 73%;
   margin-top: -12vw;
   line-height: 9vw;
-  font-size: 1.5vw;
+  font-size: 0.9vw;
   margin: auto;
 }
 
@@ -71,12 +71,12 @@ footer{
   background-color:#F8F8F8;
   text-align: right;
   line-height: 5vw;
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin-top: auto;
   padding-right: 20px;
 }
 
-#author{
+#author, #contact{
   text-decoration: none;
   color: black;
   padding-right: 0.5%;
@@ -195,13 +195,13 @@ hr{
 }
 
 #info{
-  font-size: 1.2vw;
+  font-size: 1vw;
   width: 50%;
   margin-left: 20vw;
 }
 
 #copyright_about{
-  font-size: 1vw;
+  font-size: 0.7vw;
   margin-top: 20px;
   margin-left: 20vw;
 }

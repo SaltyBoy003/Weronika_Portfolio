@@ -38,9 +38,9 @@ function reszie(){
         document.getElementById("name").style.color = "#383838";
         document.getElementById("header").style.backgroundColor = "transparent";
         const font_sizes = {
-         "name": [3, 1.1],
-         "about": [1.3, 0.8],
-         "instagram": [1.3, 0.8]
+         "name": [2.5, 1.2],
+         "about": [1.1, 0.9],
+         "instagram": [1.1, 0.9]
         };
 
             if (scroll === 0) {

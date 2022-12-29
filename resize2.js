@@ -5,21 +5,12 @@ function reszie(){
     switch(true){
         case(width < 1024):
         document.getElementById("name").style.fontSize = "6.5vw";
-            if(scroll > 35){
-                document.getElementById("name").style.color = "white";
-                document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-                document.getElementById("menu").style.borderColor = "white";
-                document.getElementById("bar1").style.backgroundColor = "white";
-                document.getElementById("bar2").style.backgroundColor = "white";
-                document.getElementById("bar3").style.backgroundColor = "white";
-            }else{
                 document.getElementById("name").style.color = "#383838";
                 document.getElementById("header").style.backgroundColor = "transparent";
                 document.getElementById("menu").style.borderColor = "#333";
                 document.getElementById("bar1").style.backgroundColor = "#383838";
                 document.getElementById("bar2").style.backgroundColor = "#383838";
                 document.getElementById("bar3").style.backgroundColor = "#383838";
-            }
 
             if(z === 1){
                 document.getElementById("dropdown-content").style.display = "block"

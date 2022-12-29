@@ -14,9 +14,10 @@
 
 body{
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 
-img{
+img, video{
   padding: 0.1em;
   transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
@@ -26,7 +27,7 @@ img{
   width: 100%;
 }
 
-img:hover {
+img:hover, video:hover {
   filter: brightness(50%);
   cursor: pointer;
 }
@@ -50,6 +51,7 @@ img:hover {
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   margin: auto;
+  margin-top: -2px;
 }
 
 .copyright{
@@ -71,6 +73,7 @@ footer{
   line-height: 5vw;
   font-size: 1vw;
   margin-top: auto;
+  padding-right: 20px;
 }
 
 #author{
@@ -171,6 +174,7 @@ hr{
   margin: auto;
   z-index:99;
   padding: 25px;
+  margin-top: -2px;
 }
 
 .gallery{
@@ -183,7 +187,7 @@ hr{
   column-gap:           4px;  
 }
 
-.gallery img {
+.gallery img, .gallery video {
   width: 100% !important;
   height: auto !important;
   margin-bottom: 4px;
@@ -200,6 +204,23 @@ hr{
   font-size: 1vw;
   margin-top: 20px;
   margin-left: 20vw;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbdbdb; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b5b5b5; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9e9e; 
 }
 
 @media only screen and (min-width: 1024px){
@@ -252,6 +273,7 @@ footer{
   height: 10vw;
   line-height: 10vw;
   margin-top: 10vw;
+  padding-right: 0px;
 }
 
 #info{
@@ -329,4 +351,9 @@ footer{
 #about_menu, #instagram_menu, #home_menu{
   transition: all 1s ease;
 }
+
+.dropdown-content{
+  transition: all 1s ease;
+}
+
 }

@@ -50,7 +50,7 @@ function reszie(){
                 document.getElementById("header").style.width = "100vw";
             }
 
-            if (scroll > 50) {
+            if (scroll > 33) {
                 for (let html_id in font_sizes) {
                     document.getElementById(html_id).style.fontSize = `${font_sizes[html_id][1]}vw`;
                 }

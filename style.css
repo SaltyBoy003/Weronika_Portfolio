@@ -33,26 +33,7 @@ img:hover {
 }
 
 
-.header{
-  width: 100%;
-  padding: 1%;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  transition: all 1s ease;
-}
 
-.gallery{
-  width: 73%;
-  flex-wrap: wrap;
-  transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  margin: auto;
-  margin-top: -2px;
-}
 
 .copyright{
   height: 9vw;

@@ -27,9 +27,17 @@ img, video{
   width: 100%;
 }
 
-img:hover {
-  filter: brightness(50%);
+video:hover, img:hover{
   cursor: pointer;
+}
+
+video:hover, img:hover{
+  filter: brightness(90%);
+}
+
+video:hover:fullscreen{
+  cursor: auto;
+  filter: brightness(100%);
 }
 
 

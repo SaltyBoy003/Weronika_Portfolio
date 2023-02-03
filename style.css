@@ -90,7 +90,17 @@ footer{
   padding-right: 0.5%;
 }
 
-#author:hover{
+.info_href{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info_href:hover{
+  cursor: pointer;
+}
+
+#author:hover, .info_href:hover{
   color: #666666;
 }
 
@@ -203,13 +213,14 @@ hr{
 }
 
 #info{
-  font-size: 1vw;
-  width: 50%;
+  font-size: 0.95vw;
+  width: 55%;
   margin-left: 20vw;
+  letter-spacing: 1px;
 }
 
 #copyright_about{
-  font-size: 0.7vw;
+  font-size: 0.9vw;
   margin-top: 20px;
   margin-left: 20vw;
 }

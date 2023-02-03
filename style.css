@@ -273,7 +273,8 @@ hr{
 
 #name{
   color: #383838;
-  font-size: 1.2vw;
+  font-size: 6.5vw;
+  transition: all 1s ease;
 }
 
 .container{
@@ -305,11 +306,6 @@ footer{
 
 #about, #instagram, #home{
   display: none;
-}
-
-#name{
-  font-size: 2.5vw;
-  transition: all 1s ease;
 }
 
 .menu{

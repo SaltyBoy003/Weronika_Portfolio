@@ -27,10 +27,7 @@ img, video{
   width: 100%;
 }
 
-img:hover {
-  filter: brightness(50%);
-  cursor: pointer;
-}
+
 
 
 .header{

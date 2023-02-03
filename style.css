@@ -271,6 +271,11 @@ hr{
   height: 10vw;
 }
 
+#name{
+  color: #383838;
+  font-size: 1.2vw;
+}
+
 .container{
   flex-direction: column;
 }
